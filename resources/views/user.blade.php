@@ -16,13 +16,12 @@
                     <img 
                     width="100px" 
                     height="100px" 
-                    src="{{asset('assets/')}}" 
+                    src="https://image.flaticon.com/icons/png/512/16/16363.png" 
                     alt="">
                 </div>
             </div>
             <div id="center">
-                <div class="col-lg-12 col-md-12 col-12">
-                    <h2 class="mb-12 pb-2" data-aos="fade-up" data-aos-delay="200">What do you want to change</h2>
+                <div class="components">
 
                     <form action="#" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
                         <input type="text" class="form-control" name="cf-name" placeholder="Name" style="margin-bottom:18px">
@@ -31,11 +30,6 @@
                         <input type="email" class="form-control" name="cf-email" placeholder="Email" style="margin-bottom:18px">
                         
                         <input type="password" class="form-control" name="cf-name" placeholder="Password" style="margin-bottom:18px">
-                        <input type="Repeat password" class="form-control" name="cf-name" placeholder="Repeat password" style="margin-bottom:18px">
-
-
-                        
-
                         
 
                         <button type="submit" class="form-control" id="submit-button" name="submit">Save Change</button>
