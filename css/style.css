@@ -72,6 +72,22 @@
     height: 100vh;
     width: 100vw;
 }
+.slide_img {
+    height: 100vh;
+    width: 100vw;
+}
+.img_1 {
+    background: url('../image/slides/slide_1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_2 {
+    background: url('../image/slides/slide_2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .slider .slick-arrow {
     position: absolute;
     top: 50%;
