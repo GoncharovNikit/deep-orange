@@ -132,3 +132,151 @@
 /*SLIDER--END*/
 
 /*HEADER--END*/
+
+/*MAIN*/
+
+/*CARD*/
+.card_container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.card {
+    width: 30%;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    background: #E8F8F7;
+    margin: 0 10px;
+}
+.text-container {
+    padding: 80px 20px 50px 20px;
+}
+.card:before {
+    content: ' ';
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    margin-top: -30px;
+}
+.card:first-child:before {
+    background: url('../image/planet-earth.png') 0 0 / 100% no-repeat;
+}
+.card:nth-child(2):before {
+    background: url('../image/eco.png') 0 0 / 100% no-repeat;
+}
+.card:last-child:before {
+    background: url('../image/city.png') 0 0 / 100% no-repeat;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+.card_headling {
+    color: #59B8B3;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: default;
+}
+.card_paragraph {
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    cursor: default;
+    margin-top: 25px;
+}
+/*CARD--END*/
+
+/*POPULAR_GROUPS*/
+.popular-group_container {
+    height: 50vh;
+    background: #BAEB6C;
+    position: relative;
+}
+.rating {
+    padding-top: 110px;
+}
+.popular-group_container h1 {
+    display: block;
+    margin: 50px 0 0 50px;
+}
+.first-place_container {
+    display: flex;
+    justify-content: center;
+}
+.two-place_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.rating_headling {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: default;
+}
+.rating_headling a {
+    color: white;
+}
+.rating_headling p {
+    cursor: pointer;
+}
+.rating_paragraph {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    cursor: default;
+}
+.name-group {
+    margin: -6px 0px 0px 50px;
+}
+.first-place_container .place:first-child:before {
+    content: ' ';
+    background: url('../image/cup-first.png') 0 0 / 100% no-repeat;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+.two-place_container .place:first-child:before {
+    content: ' ';
+    background: url('../image/cup-second.png') 0 0 / 100% no-repeat;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+.two-place_container .place:last-child:before {
+    content: ' ';
+    background: url('../image/cup-third.png') 0 0 / 100% no-repeat;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+.two-place_container .place:first-child {
+    margin-left: 50px;
+}
+.two-place_container .place:last-child {
+    margin-left: 50px;
+}
+.btn-rating {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 150px 50px 0;
+    cursor: pointer;
+    display: flex;
+}
+.next-arrow {
+    position: absolute;
+    margin-right: 150px;
+    margin-top: 2px;
+    opacity: 0;
+    transition: .3s;
+}
+.btn-rating:hover .next-arrow{
+    margin-left: 260px;
+    opacity: 1;
+}
+/*POPULAR_GROUPS--END*/
+
+/*MAIN--END*/
