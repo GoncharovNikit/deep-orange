@@ -1,3 +1,7 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+/*fonts--END*/
+
 /*HEADER*/
 
 /*NAV*/
@@ -10,6 +14,8 @@
 }
 .navigation li {
     margin: 0 10px;
+}
+.navigation li a {
     color: white;
     font-family: sans-serif;
     font-size: 20px;
@@ -187,7 +193,7 @@
 }
 /*CARD--END*/
 
-/*POPULAR_GROUPS*/
+/*POPULAR GROUPS*/
 .popular-group_container {
     height: 50vh;
     background: #BAEB6C;
@@ -277,6 +283,61 @@
     margin-left: 260px;
     opacity: 1;
 }
-/*POPULAR_GROUPS--END*/
+/*POPULAR GROUPS--END*/
+
+/*ABOUT US*/
+.part-about-us {
+    margin: 50px 0;
+}
+.part-about-us-text_container {
+    text-align: center;
+}
+.part-about-us-text_container h1 {
+    color: #374346;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.part-about-us-text_container .rating_paragraph {
+    color: #414240;
+    font-size: 20px;
+}
+.part-about-us-text_container p {
+    margin: 30px 0;
+}
+.part-about-us-text_container:after {
+    content: ' ';
+    height: 30px;
+    width: 30px;
+    background: url('../image/arrow-down.png') 0 0 / 100% no-repeat;
+    position: absolute;
+    cursor: pointer;
+}
+.block-with-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.member-card {
+    height: 200px;
+    width: 200px;
+    background: #414240;
+    margin: 0 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.name-card_container {
+    position: absolute;
+    height: 40px;
+    width: 180px;
+    background: white;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.name-card_container p {
+    margin-top: 3px;
+    font-family: sans-serif;
+}
+/*ABOUT US--END*/
 
 /*MAIN--END*/
