@@ -340,4 +340,87 @@
 }
 /*ABOUT US--END*/
 
+/*CREATE POST-LINK*/
+.create-post-link_container {
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    background: #BAEB6C;
+}
+.create-post-link_text-container {
+    margin: 50px 0 0 5%;
+}
+.create-post-link_text-container h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.create-post-link_text-container p {
+    font-size: 25px;
+}
+.create-post-link_anim-write {
+    align-self: center;
+    width: 318px;
+    height: 30vh;
+    padding: 0px 10px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.create-post-link_anim-write h1  {
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.create-post-link_anim-write h1:first-child {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.create-post-link_anim-write h1:last-child {
+    width: 19ch;
+    animation: flashing-border .75s step-end infinite, printed-text 10s steps(19) infinite;
+    border-right: 4px solid orange;
+}
+.btn-create-post {
+    height: 60px;
+    width: 60px;
+    margin-top: 20px; 
+    display: inline-block;
+    margin-top: 25vh;
+    margin-right: 5vh;
+    transition: .3s;
+    background: white;
+}
+.btn-create-post:hover {
+    transform: rotate(-180deg);
+    background: url('../image/computer-mouse.png') 0 0 / 100% no-repeat;
+    height: 60px;
+    width: 60px;
+}
+
+@keyframes flashing-border {
+    0% {
+        border-color: orange;
+    }
+    50% {
+        border: transparent;
+    }
+    100% {
+        border-color: orange;
+    }
+}
+
+@keyframes printed-text {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 19ch;
+    }
+    100% {
+        width: 0;
+    }
+}
+/*CREATE POST-LINK--END*/
+
 /*MAIN--END*/
