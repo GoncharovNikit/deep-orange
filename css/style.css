@@ -149,7 +149,7 @@
 }
 .card {
     width: 30%;
-    border-radius: 5px;
+    border-radius: 10px;
     border-top-right-radius: 0px;
     background: #E8F8F7;
     margin: 0 10px;
@@ -309,7 +309,6 @@
     width: 30px;
     background: url('../image/arrow-down.png') 0 0 / 100% no-repeat;
     position: absolute;
-    cursor: pointer;
 }
 .block-with-card {
     display: flex;
@@ -424,3 +423,47 @@
 /*CREATE POST-LINK--END*/
 
 /*MAIN--END*/
+
+/*FOOTER*/
+footer {
+    height: 25vh;
+    background: #383431;
+}
+.icon-social-media_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.icon-social-media_container a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}
+.icon-social-media_container a:first-child {
+    background: url('../image/facebook.png') 0 0 / 100% no-repeat;
+}
+.icon-social-media_container a:nth-child(2) {
+    background: url('../image/instagram.png') 0 0 / 100% no-repeat;
+}
+.icon-social-media_container a:last-child {
+    background: url('../image/twitter.png') 0 0 / 100% no-repeat;
+}
+.footer-text_container {
+    margin-top: 30px;
+}
+.text-footer {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.text-footer-year {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+/*FOOTER--END*/
