@@ -19,9 +19,8 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             UserPlantSeeder::class,
             UsersGroupSeeder::class,
-            PostSeeder::class,
             GroupEventSeeder::class,
-            PostImageSeeder::class,
+            EventImageSeeder::class,
             CommentSeeder::class
         ]);
     }
