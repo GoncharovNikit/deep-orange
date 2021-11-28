@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+.main-container
+{
+    display: flex;
+    position: fixed;
+}
+.right-side
+{
+    width: 30%;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: whitesmoke;
+
+    margin-left: 5px;
+    position: fixed;
+}
+.left-side
+{
+    width: 70%;
+}
+.right-side-img
+{
+    width: 100%;
+    height: 250px;
+
+    border-radius: 15px;
+
+    background-color: #E3F9F8;
+    padding: 20px;
+}
+.right-side-img>img
+{
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px black;
+}
+.info-blok
+{
+    width: 100%;
+
+    margin: 5px 0 5px 0;
+    
+    transition: ease-in-out 30ms;
+
+    border-radius: 15px;
+    background-color: #E3F9F8;
+    padding: 20px;
+}
+.info-blok:hover
+{
+    position: relative;
+
+    transform: scale(1.05);
+
+}
+.blok-li-element-name
+{
+    color: #59B8B3;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: default;
+    text-decoration: wavy;
+}
+.blok-li-element-value
+{
+    color:  orange;
+
+    font-weight: 600;
+    font-size: 18px;
+
+    margin-left: 10px;
+}
+.blok-li>div
+{
+    margin-left: 22px;
+}
+.blok-li>div>div
+{
+    display: inline;
+}
+.blok-li
+{
+    font-size: 18px;
+    color: #59B8B3;
+}
+.info-blok>h3
+{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+.city-blok>div
+{
+    font-size: 19px !important;
+}
+
+
+/**********************************
+***********************************/
+
+.left-side
+{
+    background-color: whitesmoke;
+    margin-right: 5px;
+    position: fixed;
+}
+.work-place
+{
+    width: 100%;
+    height: 100%;
+}
+.work-place-top,.work-place-bottom
+{
+    width: 100%;
+    height: 4%;
+
+    height: 20px;
+
+    background-image: url('../image/sand.jpg');
+}
+
+.wall_of_posts
+{
+    height: 92%;
+}
