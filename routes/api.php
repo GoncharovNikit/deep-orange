@@ -16,3 +16,5 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('profile', [UserController::class, 'apiprofile']);
+Route::get('/current-user', [UserController::class, 'current_user']);
+Route::get('/eco-groups', [UserController::class, 'eco_groups']);

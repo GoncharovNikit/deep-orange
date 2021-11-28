@@ -2,7 +2,7 @@
     <main>
         <!--first part main-->
         <div class="card_container">
-            <div class="card">
+            <div class="main-card">
                 <div class="text-container">
                     <h1 class="card_headling">Eco-join</h1>
                     <p class="card_paragraph">
@@ -10,13 +10,13 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="main-card">
                 <div class="text-container">
                     <h1 class="card_headling">Your plants wanna be happy!</h1>
                     <p class="card_paragraph">You can care for your plants!</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="main-card">
                 <div class="text-container">
                     <h1 class="card_headling">Forum for eco activity</h1>
                     <p class="card_paragraph">You can share it whith other!</p>
@@ -133,4 +133,6 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

@@ -2,7 +2,10 @@ require("./bootstrap");
 
 import App from "./App.vue";
 import { createApp } from "vue";
+import router from "./router/index";
 
-const app = createApp(App);
+if (document.getElementById("vue-app") != null) {
+    const app = createApp(App);
 
-app.mount("#vue-app");
+    app.use(router).mount("#vue-app");
+}

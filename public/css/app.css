@@ -10111,10 +10111,6 @@ a {
   margin-bottom: 10px;
 }
 
-.navigation li:first-child .line {
-  width: 100%;
-}
-
 .navigation li:hover .line {
   width: 100%;
 }
@@ -10143,7 +10139,7 @@ a {
   margin-top: 100px;
 }
 
-.container {
+.slider-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10158,7 +10154,7 @@ a {
 }
 
 .slick-slider {
-  height: 100vh;
+  height: 70vh;
 }
 
 .slick-track {
@@ -10166,12 +10162,12 @@ a {
 }
 
 .slider_item img {
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
 }
 
 .slide_img {
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
 }
 
@@ -10247,11 +10243,11 @@ a {
   margin: 50px 0px;
 }
 
-.card {
+.main-card {
   width: 30%;
   border-radius: 10px;
   border-top-right-radius: 0px;
-  background: #E8F8F7;
+  background: #e8f8f7;
   margin: 0 10px;
 }
 
@@ -10259,7 +10255,7 @@ a {
   padding: 80px 20px 50px 20px;
 }
 
-.card:before {
+.main-card:before {
   content: " ";
   height: 60px;
   width: 60px;
@@ -10267,15 +10263,15 @@ a {
   margin-top: -30px;
 }
 
-.card:first-child:before {
+.main-card:first-child:before {
   background: url(/images/planet-earth.png?82fc148d11c9bc7554ed4040a9b500f2) 0 0/100% no-repeat;
 }
 
-.card:nth-child(2):before {
+.main-card:nth-child(2):before {
   background: url(/images/eco.png?8014c4175149011e63981b9624f740a4) 0 0/100% no-repeat;
 }
 
-.card:last-child:before {
+.main-card:last-child:before {
   background: url(/images/city.png?f90ca86dc32b620b9a4b7530d86893ef) 0 0/100% no-repeat;
 }
 
@@ -10285,7 +10281,7 @@ a {
 }
 
 .card_headling {
-  color: #59B8B3;
+  color: #59b8b3;
   font-size: 25px;
   font-family: sans-serif;
   font-weight: bold;
@@ -10304,7 +10300,7 @@ a {
 /*POPULAR GROUPS*/
 .popular-group_container {
   height: 50vh;
-  background: #BAEB6C;
+  background: #baeb6c;
   position: relative;
 }
 
@@ -10478,7 +10474,7 @@ a {
   display: flex;
   justify-content: space-between;
   height: 40vh;
-  background: #BAEB6C;
+  background: #baeb6c;
 }
 
 .create-post-link_text-container {
